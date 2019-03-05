@@ -1,0 +1,478 @@
+/* Body */
+body
+{
+  font-family: 'Open Sans', sans-serif;
+
+}
+
+/* reset button  */
+#reset
+{
+  background-color: #3d3a37;
+  color: #fff;
+  outline: none !important;
+  margin-left: 3em;
+  font-size: 1.2em;
+}
+
+.btn:hover
+{
+  color: #fff;
+}
+
+.bootstrap-select .dropdown-toggle:focus
+{
+  outline: none !important;
+}
+
+
+/* header image for xs devices*/
+#banner1
+{
+  height: 25vh;
+  width: 100%;
+}
+
+/* header image for lg devices */
+#banner2
+{
+  display: none;
+}
+
+
+/*sliders for time slot  */
+.prev, .next, .mySlides1
+{
+  display: inline-block;
+  margin-left: 0.2em;
+}
+
+
+
+a
+{
+  color: #eae1df;
+  text-decoration: none;
+}
+
+
+/*The next slider for mobile version  */
+.mySlides2
+{
+  display: none;
+}
+
+
+
+/*div containing menu bar  */
+#div2
+{
+  background-color: #3d3a37;
+  color: #fff;
+}
+
+
+
+
+/* button */
+.button
+{
+  padding: 0.8em;
+  outline: none;
+  background-color: white;
+  border: 2px solid #eae1df;
+  margin-right: 0.5em;
+}
+
+
+
+
+/* time buttons on hover*/
+.button:hover
+{
+  border: 2px solid #03dba2;
+  background-color: #e1f9f2;
+}
+
+
+
+
+#col3
+{
+  margin-bottom: 2em;
+  margin-top: -0.5em;
+}
+
+
+
+
+/*div containing doctor image  */
+#imgdiv0, #imgdiv1, #imgdiv2, #imgdiv3, #imgdiv4, #imgdiv5, #imgdiv6, #imgdiv7, #imgdiv8
+{
+  height: 20vh;
+  border-radius: 50%;
+  margin: 9%;
+  width: 32vw;
+}
+
+
+
+
+/* details of doctors */
+#div3 h3
+{
+  font-size: 1.1em;
+  color: #03dba2;
+  font-weight: 600;
+  margin-left: -1em;
+}
+
+
+
+/*details of doctors in para  */
+#div3 p
+{
+  margin-top: -3em;
+  margin-left: -1em;
+  margin-right: -1em;
+  font-size: 0.9em;
+  color: #474747;
+  font-weight: 500;
+}
+
+
+
+
+/*image settings  of profile pictures*/
+#div3 img
+{
+  height: 16vh;
+  border-radius: 50%;
+  width: 30vw;
+  border: 2px solid #03ebc3;
+}
+
+
+/* -----------calender-------- */
+#cal input{
+  width: 28vw;
+  height: 10vw;
+  position: absolute;
+  left: 0;
+  border-radius: 15px;
+  outline: none;
+  color: black;
+  text-align: center;
+  font-size: 1em;
+  font-weight: 550;
+}
+
+/* row conataining all the filters */
+#filtermenu{
+  padding: 1em 0em 1em 0em;
+}
+
+.ui-datepicker{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1em;
+  color: black;
+}
+.ui-datepicker-header{
+  background: #3d3a37;
+}
+
+.ui-datepicker-prev {
+  cursor: pointer;
+}
+
+.ui-datepicker-next {
+  cursor: pointer;
+}
+
+ui-datepicker td span, .ui-datepicker td a {
+  display: inline-block;
+  text-align: center;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+
+}
+
+.ui-datepicker-calendar .ui-state-hover {
+  background: #3d3a37;
+  color: #FFFFFF;
+  outline: none;
+}
+
+.ui-datepicker-calendar .ui-state-active {
+    background-color: #3d3a37;
+    -webkit-box-shadow: inset 0px 0px 10px 0px rgba(0, 0, 0, .1);
+    -moz-box-shadow: inset 0px 0px 10px 0px rgba(0, 0, 0, .1);
+    box-shadow: inset 0px 0px 10px 0px rgba(0, 0, 0, .1);
+    color: #e0e0e0;
+    text-shadow: 0px 1px 0px #4d7a85;
+    border: 1px solid black;
+    position: relative;
+    margin: -1px;
+}
+.ui-datepicker-calendar .ui-state-default
+{
+  background: #eae1df;
+  color: #3d3a37;
+}
+
+/*end of calender code   */
+
+
+
+
+
+/* ------filter --------*/
+#xsr p
+{
+  margin-top: 0.2em;
+  font-size: 1em;
+  position: absolute;
+  right: 1em;
+}
+
+#xsr span
+{
+  font-size: 1.5em;
+}
+/*-------- end of filter------ */
+
+
+
+/*checkbox  */
+.checkbox
+{
+  font-size: 1em;
+
+}
+
+
+
+
+/*location filter for mobile  */
+#locXS
+{
+  background-color: #eae1df;
+  color: #3d3a37;
+  outline: none;
+}
+
+
+
+
+/* button filter for location */
+.dropdown-toggle
+{
+  background: transparent;
+  border: none;
+  outline: none;
+}
+
+
+
+#locXS p
+{
+  text-align: center;
+  margin: 0;
+
+}
+
+
+
+
+/*bottom border of doc div  */
+#doc1, #doc2, #doc3, #doc4, #doc5, #doc6, #doc7, #doc0, #doc8
+{
+  border-bottom: 5px solid #eae1df;
+
+}
+
+
+
+
+
+
+
+
+
+/*-----------------------MEDIA QUERIES-------------------------------------  */
+
+/* for medium devices like desktops and laptops*/
+
+@media only screen and (min-width:992px)
+{
+
+  body
+  {
+    background-color: #f1f1f1;
+  }
+
+
+  /*  main div containing the doctors details */
+  #doc1, #doc2, #doc3, #doc4, #doc5, #doc6, #doc7, #doc0, #doc8
+  {
+    width: 80%;
+    margin-left: 9vw;
+    margin-top: 2%;
+    background-color: #fff;
+
+  }
+
+
+
+  /* display image of the doctors   */
+  #div3 img
+  {
+    height: 22vh;
+    border-radius: 50%;
+    width: 11vw;
+    border: 1px solid #03ebc3;
+
+  }
+
+
+
+  /* div containing the img of the doctors   */
+  #imgdiv0, #imgdiv1, #imgdiv2, #imgdiv3, #imgdiv4, #imgdiv5, #imgdiv6, #imgdiv7. #imgdiv8
+  {
+    height: 28vh;
+    border-radius: 50%;
+    width: 16vw;
+
+  }
+
+
+
+  /* name of the doctors   */
+  #div3 h3
+  {
+    font-size: 1.5em;
+    color: #03dba2;
+    font-weight: 600;
+    margin-left: -2.5em;
+  }
+
+
+
+  /*details of doctors in para  */
+  #div3 p
+  {
+    margin-top: -3em;
+    margin-left: -3.6em;
+    margin-right: -1em;
+    font-size: 1em;
+    color: #474747;
+    ont-weight: 500;
+  }
+
+
+
+  /* coloumn containing doctor details */
+  #col20, #col21, #col23, #col24, #col25, #col26, #col27, #col28, #col22
+  {
+    margin-top: 1%;
+  }
+
+
+
+  .button
+  {
+    margin-left: 1em;
+    padding-left: 2em;
+    padding-right: 2em;
+  }
+
+
+
+  /*coloumn containing time buttons  */
+  #lgcol3
+  {
+    margin-top: -0.8em;
+    margin-bottom: 1.5em;
+  }
+
+
+
+  .checkbox
+  {
+    font-size: 1.2em;
+    margin-left: 9vw;
+  }
+
+
+
+  /* Sort by  */
+  #lsr{
+    font-size: 1.2em;
+  }
+
+  #lsr div
+  {
+    display: inline;
+  }
+
+  #lsr button{
+    outline: none;
+    color: white;
+    padding: 0;
+  }
+  /* End of sort by */
+
+
+
+  /*calender  */
+  #lcal input
+  {
+    width: 12vw;
+    height: 2.6vw;
+    border-radius: 2.5em;
+    margin-top: 0.3em;
+    margin-left: -3em;
+    outline: none;
+    color: black;
+    text-align: center;
+    font-size: 1em;
+  }
+
+  #lgloc{
+    margin-top: -1em;
+
+  }
+
+  #lgloc p
+  {
+    margin: 0 0 0 3em;
+    font-size: 1em;
+  }
+
+  .dropdown-toggle
+  {
+    background: #3d3a37;
+    color: white;
+    font-size: 1em;
+  }
+
+  .dropdown-toggle:hover
+  {
+    background: #3d3a37;
+    color: white;
+  }
+
+  #banner1
+  {
+    display: none;
+  }
+
+  #banner2
+  {
+    display: block;
+  }
+
+
+
+}

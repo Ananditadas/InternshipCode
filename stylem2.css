@@ -1,0 +1,16 @@
+#logo
+{
+  height:4em;
+  width:11.5em;
+}
+#help
+{
+  padding-left: 25em;
+  padding-top: 1.5em;
+  color: #053d3a;
+}
+
+.navbar
+{
+  background-color: #053d3a;
+}
